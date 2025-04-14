@@ -8,7 +8,7 @@ body {
 }
 
 .header {
-  background-color: lightblue;
+  background-color: #1f2937;
   display: flex;
   justify-content: center;
   top: 0;
@@ -17,10 +17,12 @@ body {
   height: 70px;
   grid-template-columns:  1fr 1fr;
   position: fixed;
+  border: solid;
+  border-width:  1px;
 }
 
 .header-left { 
-  background-color: lightcoral;  
+  /* background-color: lightcoral;   */
   font-size: 24px;
   display: flex;
   width: 100%;
@@ -31,11 +33,56 @@ body {
   padding: 100px;
   justify-content: left;
   display: flex;
+  color: #F9FAF8;
+  font-weight:600;
 }
 
 .header-right {
-  background-color: aquamarine;
-  align-content: center;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  
+}
+
+.header-link {
+  font-size: 18px;
+  margin-left: 15px;
+  text-decoration: none !important;
+  color: #F9FAF8;
+}
+/* Start of Content */
+
+.display-section {
+  height: 300px;
+  background-color: rgb(198, 251, 255);
+  margin-top: 70px;
+  border: solid;
+  border-width: 1px;
+}
+
+.info-section {
+  height: 300px;
+  background-color: rgb(255, 209, 241);
+  border: solid;
+  border-width: 1px;
+}
+
+.quote-section {
+  height: 300px;
+  background-color: rgb(198, 251, 255);
+  border: solid;
+  border-width: 1px;
+}
+
+.button-section {
+  height: 250px;
+  background-color: rgb(255, 209, 241);
+  border: solid;
+  border-width: 1px;
+}
+
+.footer {
+  height: 100px;
+  background-color: grey;
 }

@@ -3,17 +3,39 @@
   margin: 0;
 }
 
+body {
+  height: 6000px;
+}
+
 .header {
   background-color: lightblue;
-  display: grid;
-  height: 80px;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
   grid-template-columns:  1fr 1fr;
+  position: fixed;
 }
 
 .header-left { 
   background-color: lightcoral;  
+  font-size: 24px;
+  display: flex;
+  width: 100%;
+}
+
+.hleft-logo {
+  align-self: center;
+  padding: 100px;
+  justify-content: left;
+  display: flex;
 }
 
 .header-right {
   background-color: aquamarine;
+  align-content: center;
+  width: 100%;
+  
 }

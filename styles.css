@@ -1,0 +1,19 @@
+* {
+  font-family: Roboto, Arial;
+  margin: 0;
+}
+
+.header {
+  background-color: lightblue;
+  display: grid;
+  height: 80px;
+  grid-template-columns:  1fr 1fr;
+}
+
+.header-left { 
+  background-color: lightcoral;  
+}
+
+.header-right {
+  background-color: aquamarine;
+}

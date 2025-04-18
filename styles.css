@@ -164,12 +164,35 @@ body {
   border-color: #3882F6;
   border-radius: 10px;
 }
-
+/* Start of quote-section */
 .quote-section {
   height: 300px;
-  background-color: rgb(198, 251, 255);
-  border: solid;
-  border-width: 1px;
+  background-color: #E5E7EB;
+  align-content: center;
+  justify-items: center;
+}
+
+.quote-container {
+  max-width: 1000px;
+  display: inline-block;
+  align-self: center;
+}
+
+.quote-text {
+font-size: 36px;
+font-weight: 300;
+font-style: italic;
+color: #1F2937;
+max-width: 780px;
+
+}
+
+.quote-subtext{
+  font-weight: 600;
+  font-size: 24px;
+  color: #1F2937;
+  text-align: right;
+  max-width: 745px;
 }
 
 .button-section {

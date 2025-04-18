@@ -4,7 +4,6 @@
 }
 
 body {
-  height: 6000px;
   background-color: rgb(31, 41, 55);
 }
 
@@ -195,14 +194,79 @@ max-width: 780px;
   max-width: 745px;
 }
 
+
+/* Start of button section */
 .button-section {
-  height: 250px;
-  background-color: rgb(255, 209, 241);
-  border: solid;
+  height: 400px;
+  background-color: #F9FAF8;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calltoaction-box {
+  background-color: #3882F6;
+  width: 1000px;
+  height: 150px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.cta-gridl {
+  display: inline-flex;
+  flex-direction: column;
+  padding-left: 120px;
+  text-align: left;
+
+}
+
+.cta-gridr {
+  padding-left: 20px;
+}
+
+.calltoaction-text,
+.calltoaction-subtext
+{
+  color: #F9FAF8;
+}
+
+.calltoaction-text {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.calltoaction-subtext {
+  font-weight: 300;
+}
+
+.cta-button {
+  background-color: #3882F6;
+  border-radius: 7px;
   border-width: 1px;
+  border-style: solid;
+  border-color: #F9FAF8;
+  color: #F9FAF8;
+  font-size: 16px;
+  font-weight: 600;
+  width: 120px;
+  height: 35px;
+
 }
 
 .footer {
   height: 100px;
-  background-color: grey;
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  color: #F9FAF8;
+  font-size: 18px;
+  font-weight: 400;
 }

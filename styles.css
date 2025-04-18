@@ -167,14 +167,14 @@ body {
 .quote-section {
   height: 400px;
   background-color: #E5E7EB;
-  align-content: center;
-  justify-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .quote-container {
   max-width: 1000px;
-  display: inline-block;
-  align-self: center;
+  display: inline;
 }
 
 .quote-text {
